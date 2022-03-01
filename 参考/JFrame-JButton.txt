@@ -1,0 +1,13 @@
+        JFrame frame = new JFrame("我的JFrame");
+
+        //创建按钮
+        JButton button = new JButton("ok");
+
+        frame.setSize(1000,1000);
+
+        frame.setLocationRelativeTo(null);
+
+        // 向frame中添加一个按钮
+        frame.add(button);
+
+        frame.setVisible(true);
